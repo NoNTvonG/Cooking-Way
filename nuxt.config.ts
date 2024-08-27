@@ -8,5 +8,12 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxt/fonts',
     'dayjs-nuxt'
-  ]
+  ],
+  fonts: {
+    families: [
+      { name: 'Montserrat', provider: 'google' },
+      { name: 'Poppins', provider: 'google' },
+      { name: 'Pacifico', provider: 'google' },
+    ]
+  }
 })
